@@ -1,0 +1,46 @@
+.profile_clone{
+    width:600px;
+    height:100%;
+    margin:20px auto;
+    position:relative;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.profile_background{
+width:100%;
+border-radius: 20px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+height: 2%;
+}
+
+.user_photo{
+border: 5px solid white;
+width:120px;
+height:130px;
+border-radius: 50%;
+left:50%;
+top:30%;
+transform: translate(-50%,50%);
+position:absolute;
+}
+
+.profile_details{
+    text-align: center;
+    margin:20px auto;
+}
+.profile_name{
+    margin-top:90px;
+    color:black;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+.profile_description{
+    margin-top: 10px;
+    color:gray;
+    font-size:40px;
+}
